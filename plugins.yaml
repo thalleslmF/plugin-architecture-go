@@ -1,0 +1,22 @@
+plugins:
+  - name: add
+    short: insert a key and a value into a file
+    args:
+      - key
+      - value
+    enabled: true
+
+  - name: update
+    short:  update a key value in a file
+    args:
+      - key
+      - value
+    enabled: false
+  - name: get
+    args:
+      - key
+    enabled: true
+  - name: delete
+    args:
+      - key
+    enabled: false
